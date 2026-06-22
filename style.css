@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family:Arial;
+
+
+    background-image: url('market.jpg');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+}
+
+
+.container{
+    width:700px;
+    margin:40px auto;
+    background: rgba(255,255,255,0.88); 
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:8px;
+    border:1px solid #bbb;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#ff00a2;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:8px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#cc0000;
+}
+
+.table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+}
+
+.table th,.table td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+.success{
+    background:#c8ffd4;
+    padding:10px;
+    color:#006400;
+    border-radius:8px;
+}
+
+.error{
+    background:#ffd4d4;
+    padding:10px;
+    color:#8a0000;
+    border-radius:8px;
+}
